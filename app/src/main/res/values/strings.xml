@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">REST Tester</string>
-    <string name="default_text">This is a test fragment</string>
+    <string name="app_name">Migrain Client</string>
+    <string name="default_text">ArtSoft Made</string>
 
 </resources>

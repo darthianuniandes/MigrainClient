@@ -1,25 +1,34 @@
 package com.raywenderlich.restdemo;
 
-import android.content.res.Configuration;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
 
 public class MainActivity extends AppCompatActivity {
+
+    Button btnInvocar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            // if the screen is in landscape mode, we can show the
-            // dialog in-line with the list so we don't need this activity.
-            finish();
-            return;
-        }
+        setContentView(R.layout.activity_main);
 
-        if (savedInstanceState == null) {
-            TestFragment trendsFragment = new TestFragment();
-            getFragmentManager().beginTransaction().add(android.R.id.content, trendsFragment).commit();
-        }
+        btnInvocar =  (Button) findViewById(R.id.btnInvocar);
+
+        btnInvocar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendMessage(v);
+            }
+        });
+    }
+
+    public void sendMessage(View view) {
+        Intent intent = new Intent(this, ConsumoRest.class);
+        startActivity(intent);
     }
 }

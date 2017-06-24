@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/myScrollView"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/myTextView"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/default_text"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:orientation="vertical">
 
-</ScrollView>
+        <Button
+            android:id="@+id/btnInvocar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invocar bitch" />
+    </LinearLayout>
+
+</LinearLayout>
+

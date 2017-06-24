@@ -57,7 +57,7 @@ public class TestFragment extends Fragment {
             HttpGet httpGet = new HttpGet(new URI(TEST_URL));
             RestTask task = new RestTask(getActivity(), ACTION_FOR_INTENT_CALLBACK);
             task.execute(httpGet);
-            progress = ProgressDialog.show(getActivity(), "Getting Data ...", "Waiting For Results...", true);
+            progress = ProgressDialog.show(getActivity(), "Accediendo al servidor ...", "Esperando resultados...", true);
         }
         catch (Exception e)
         {

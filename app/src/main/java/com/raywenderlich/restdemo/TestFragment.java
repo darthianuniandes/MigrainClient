@@ -26,6 +26,7 @@ public class TestFragment extends Fragment {
     // you'll want to call a REST service, but for basic network testing i use any url
     private static final String TEST_URL                 = "http://jsonplaceholder.typicode.com/comments";
     //private static final String TEST_URL                   = "http://denverpost.com/sports";
+    //private static final String TEST_URL                   = "http://denverpost.com/sports";
     private static final String ACTION_FOR_INTENT_CALLBACK = "THIS_IS_A_UNIQUE_KEY_WE_USE_TO_COMMUNICATE";
 
     ProgressDialog progress;

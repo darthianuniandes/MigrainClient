@@ -1,4 +1,4 @@
-package com.raywenderlich.restdemo;
+package com.raywenderlich.migrain;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

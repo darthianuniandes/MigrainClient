@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
+    tools:context="co.edu.artsoft.controller.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,6 +16,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Invocar bitch" />
+
+        <Button
+            android:id="@+id/btnGrabar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grabar bitch" />
+
     </LinearLayout>
 
 </LinearLayout>

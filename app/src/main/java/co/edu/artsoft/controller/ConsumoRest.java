@@ -1,8 +1,12 @@
-package com.raywenderlich.restdemo;
+package co.edu.artsoft.controller;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.raywenderlich.migrain.R;
+
+import co.edu.artsoft.restutils.TestFragment;
 
 /**
  * Created by darthian on 6/24/17.

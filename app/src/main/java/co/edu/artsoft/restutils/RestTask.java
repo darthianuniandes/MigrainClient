@@ -1,4 +1,4 @@
-package com.raywenderlich.restdemo;
+package co.edu.artsoft.restutils;
 
 /**
  * Created by ian on 6/9/17.

@@ -1,4 +1,4 @@
-package com.raywenderlich.restdemo;
+package com.raywenderlich.migrain;
 
 import org.junit.Test;
 

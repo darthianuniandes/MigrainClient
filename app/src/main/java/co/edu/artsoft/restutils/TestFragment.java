@@ -1,4 +1,4 @@
-package com.raywenderlich.restdemo;
+package co.edu.artsoft.restutils;
 
 /**
  * Created by ian on 6/9/17.
@@ -18,6 +18,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.raywenderlich.migrain.R;
+
+import co.edu.artsoft.restutils.RestTask;
 
 public class TestFragment extends Fragment {
 
